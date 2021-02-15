@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#010C13</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#E1306C</color>
+    <color name="btncolor">#03DAC5</color>
+    <color name="dialogBoxBackgroundColor">#ffffff</color>
+    <color name="secondaryDarkColor">#6a91ae</color>
+    <item name="YELLOW" type="color">#FFFF00</item>
+    <item name="text_color_yellow" type="color">#CCCC00</item>
+    <item name="BLUE" type="color">#183883</item>
+    <item name="GREEN" type="color">#008000</item>
+    <item name="mat_code_color" type="color">#008000</item>
+    <item name="PURPLE" type="color">#800080</item>
+    <item name="RED" type="color">#ff0000</item>
+    <item name="ORANGE" type="color">#ffa500</item>
+    <item name="PINK" type="color">#ffc0cb</item>
+    <item name="GREY" type="color">#D3D3D3</item>
+    <item name="BUTTONBACKGOUNDCOLOR" type="color">#CCCCFF</item>
+    <color name="WHITE">#FFFFFF</color>
+    <color name="light_alice_blue">#ECEBEB</color>
+    <color name="half_white">#F1EFED</color>
+    <color name="vertical_line_color">#EBF0FA</color>
+    <color name="edit_label">#D3D3D3</color>
+    <color name="scheme_header_background">#85aefa</color>
+    <!--from mdepot-->
+    <color name="bg_title">#D8D8D8</color>
+    <color name="light_red">#FF0000</color>
+    <color name="edittext_background">#ffffff</color>
+    <color name="edittext_background_pressed">#ffffff</color>
+    <color name="edittext_border">#e9e9e9</color>
+    <color name="TEXT_COLOR">#000033</color>
+    <color name="sub_text_view">#848284</color>
+
+    <color name="button_color">#007bee</color>
+    <color name="grp_header">#007bee</color>
+    <color name="nav_text_color">#dd000000</color>
+    <color name="nav_sub_heading">#89000000</color>
+    <color name="divider_line">#1e000000</color>
+    <color name="support_image">#6a91ae</color>
+    <color name="nav_image">#555555</color>
+    <color name="card_view">#D3D3D3</color>
+
+    <!--material design spinner-->
+    <color name="disabled_color">#44000000</color>
+    <color name="error_color">#E7492E</color>
+
+    <color name="dashboard_bg">#dcdcdc</color>
+
+    <color name="primarybtn">#FDD329</color>
+    <color name="Blue">#2843D3</color>
+    <color name="txtColorDate">#9A9BA0</color>
+    <color name="txtTicket">#f9fafa</color>
+    <color name="txtTicketNo">#28282A</color>
+    <color name="txtClaimName">#7B7B7F</color>
+    <color name="cardBg">#F9FAFA</color>
+    <color name="fitmentTypeBgColor">#001960</color>
+    <color name="fitmentNOtSelectedbgColor">#4F4F4F</color>
+    <color name="txtVehicleColor">#99000000</color>
+    <color name="GRAY">#757474</color>
+    <color name="transparent">#00000000</color>
+    <color name="NEW_BLUE">#001960</color>
+    <color name="dialog">#80000000</color>
+    <color name="viewBg">#66001960</color>
+    <color name="red">#ce1c1c</color>
+    <color name="listBg">#f9fafa</color>
+    <color name="shadowTv">#80000000</color>
+    <color name="edtTextHintColor">#99000000</color>
+    <color name="edtTextLine">#d7d7d7</color>
+    <color name="edtTextLineBg">#28000000</color>
+    <color name="textHintColor">#8f000000</color>
+    <color name="needs_inspection">#E87911</color>
+    <color name="primaryJKColoe">#ffcc00</color>
+    <color name="tyre_returned_color">#cc000000</color>
+    <color name="black_text">#de000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_f9">#f9f9f9</color>
+    <color name="black_b8">#b8000000</color>
+    <color name="black_cc">#cc000000</color>
+    <color name="black_e1">#e1000000</color>
+    <color name="black_99">#99000000</color>
+    <color name="black_de">#de000000</color>
+    <color name="black_66">#66000000</color>
+    <color name="black_3c">#3c000000</color>
+    <color name="black_0a">#0a000000</color>
+    <color name="black">#000000</color>
+    <color name="dark_blue">#001960</color>
+    <color name="primaryTitle">#000000</color>
+    <color name="grey">#A7A7A7</color>
+    <color name="grey_14">#14000000</color>
+    <color name="grey_3d">#3de5e5e5</color>
+    <color name="grey_70">#70000000</color>
+    <color name="yellow">#FDD337</color>
+    <color name="colorRed">#ce1c1c</color>
+    <color name="light_red_1e">#1ece1c1c</color>
+    <color name="light_green_1e">#1e4a9c30</color>
+    <color name="green">#4a9c30</color>
+    <color name="darkblue">#001960</color>
+    <color name="unselected_radiobutton">#99000000</color>
+    <color name="grey_d6">#d6d6d6</color>
+    <color name="colorSky">#99A4BE</color>
+    <color name="instacolcor">#FE3560</color>
+
+</resources>

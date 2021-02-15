@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/WHITE"
+    android:orientation="vertical">
+    <include
+        android:id="@+id/claims_toolbar"
+        layout="@layout/appbar_mainmenu" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_below="@id/claims_toolbar"
+        android:background="@drawable/rounded_border_edittext"
+        android:orientation="horizontal"
+        android:id="@+id/ll_searcbar"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/etd_videolink"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_weight="0.7"
+            android:textSize="15dp"
+            android:maxLines="1"
+            android:inputType="text"
+            android:background="@android:color/transparent"
+            android:layout_gravity="center|start"
+            android:gravity="center|start"
+            android:layout_marginLeft="5dp"
+            android:hint="paste video link here">
+            <requestFocus />
+        </EditText>
+
+
+        <ImageView
+            android:id="@+id/search_clear"
+            android:layout_width="0dp"
+            android:layout_height="30dp"
+            android:layout_gravity="center|right"
+            android:layout_marginRight="0dp"
+            android:layout_weight="0.15"
+            android:padding="5dp"
+            android:src="@drawable/ic_round_clear_24" />
+
+        <ImageView
+            android:id="@+id/imag_serch"
+            android:layout_width="0dp"
+            android:padding="3dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center|end"
+            android:layout_weight="0.15"
+            android:src="@drawable/ic_icons8_google_web_search" />
+
+    </LinearLayout>
+
+    <com.google.android.exoplayer2.ui.PlayerView
+        android:id="@+id/idExoPlayerVIew"
+        android:layout_below="@id/ll_searcbar"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:show_buffering="when_playing"
+        />
+    <!--<com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/idExoPlayerVIew"
+        android:layout_below="@id/ll_searcbar"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="300dp" />-->
+
+</RelativeLayout>
